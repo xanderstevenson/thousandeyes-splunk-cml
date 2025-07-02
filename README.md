@@ -10,16 +10,6 @@ This project demonstrates how to:
 
 ---
 
-## 🖥️ Devices
-
-| Name        | Role                     | Notes                            |
-|-------------|--------------------------|----------------------------------|
-| `ubuntu-te` | ThousandEyes Enterprise Agent | Dockerized agent, also used for Splunk UF |
-| `router-1`  | Core router               | Part of the CML topology         |
-| `server-1`  | Optional test target      | Used for ThousandEyes tests      |
-
----
-
 ## 🧱 Platforms
 
 - **Cisco Modeling Labs (CML)**  
@@ -30,6 +20,16 @@ This project demonstrates how to:
 
 - **Splunk Cloud**  
   Cloud-based log and metrics aggregation. Receives TE alerts.
+
+---
+
+## 🖥️ Devices
+
+| Name        | Role                     | Notes                            |
+|-------------|--------------------------|----------------------------------|
+| `ubuntu-te` | ThousandEyes Enterprise Agent | Dockerized agent, also used for Splunk UF |
+| `router-1`  | Core router               | Part of the CML topology         |
+| `server-1`  | Optional test target      | Used for ThousandEyes tests      |
 
 ---
 
